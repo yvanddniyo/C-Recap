@@ -36,6 +36,20 @@ int main () {
      std::string day;
       day = "Friday";  
 
-    std::cout << "Hello " << name << " can we meet on " << day << "." << "\n"; 
+      /** 
+       * The ends of basic data type used in the c++
+      */
+
+     // const is the word that use to declare a variable that ready only not can modify 
+
+     const double pi = 3.14159;
+     double radius = 10;
+
+     double circumference = 2 * pi * radius; 
+
+     std::cout << circumference << "cm";
+
+    // std::cout << "Hello " << name << " can we meet on " << day << "." << "\n"; 
+
     return 0;
 }
