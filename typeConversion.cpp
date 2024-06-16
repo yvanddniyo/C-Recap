@@ -24,6 +24,7 @@ int age;
  std::cout << "what your full name?: ";
  std::getline(std::cin >> std::ws, name); // accept space btn characters
  // ws => whitespace 
+ 
 
  std::cout << "Hello " << name << "\n";
  std::cout << "Your age is " << age << " years old" << "\n";
