@@ -7,9 +7,19 @@ int main() {
   int num;
   cout << "Enter a number: ";
   cin >> num;
+   if (num % 2 == 0) {
+     cout << "this number is the even number" << endl;
+   }
+   else {
+    cout << "this is odd number" <<endl;
+   }
 
-  cout << "This is the number: " << num << "\n";
-  cout << fixed << setprecision(5) << "value of PI is: " << pi << endl;
+  
+
+  // cout << "This is the number: " << num << "\n";
+  
+
+  // cout << fixed << setprecision(5) << "value of PI is: " << pi << endl;
     return 0;
 }
 
