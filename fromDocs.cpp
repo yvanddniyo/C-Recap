@@ -14,8 +14,6 @@ int main() {
     cout << "this is odd number" <<endl;
    }
 
-  
-
   // cout << "This is the number: " << num << "\n";
   
 
